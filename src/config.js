@@ -24,15 +24,14 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 1000,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Base" },
+      { name: "Snout color" },
+      { name: "Ear color" },
+      { name: "Pugne" },
+      { name: "Mouth" },
     ],
   },
 ];
@@ -42,8 +41,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 32,
+  height: 32,
   smoothing: false,
 };
 
@@ -68,7 +67,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 1 / 1,
 };
 
 const background = {
@@ -78,7 +77,7 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = { author: "Maxwell Prehoda" };
 
 const rarityDelimiter = "#";
 
