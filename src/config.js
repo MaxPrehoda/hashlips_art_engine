@@ -33,7 +33,7 @@ const layerConfigurations = [
       { name: "Pugne" },
       { name: "Mouth" },
       { name: "Eye color" },
-      { name: "Accessories" },
+      { name: "Accesories"}
     ],
   },
 ];
